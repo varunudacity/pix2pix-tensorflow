@@ -1,7 +1,3 @@
 FROM affinelayer/pix2pix-tensorflow:v2
-
-RUN mkdir /workspace
-
 WORKDIR /workspace
-
-COPY . /workspace
+COPY . .
